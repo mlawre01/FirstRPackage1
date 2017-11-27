@@ -28,6 +28,6 @@ Here are some reasons why putting a list in this section is excessive:
 }
 }
 \examples{
-square(1:10)
-square(-5)
+cube(1:10)
+cube(-5)
 }

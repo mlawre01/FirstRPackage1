@@ -19,7 +19,7 @@
 #' }
 #'
 #' @examples
-#' square(1:10)
-#' square(-5)
+#' cube(1:10)
+#' cube(-5)
 #' @export
 cube <- function(x) x^3
