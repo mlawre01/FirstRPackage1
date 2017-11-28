@@ -1,6 +1,6 @@
 #' Raise the vector x to the exponent y.
 #'
-#' That's it -- this function just raises x to the exponent y.
+#' This function raises x to the exponent y.
 #'
 #' @param x The vector to be raised to the exponent y.
 #'

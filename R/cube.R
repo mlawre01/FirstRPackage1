@@ -1,6 +1,6 @@
 #' Cube a vector
 #'
-#' That's it -- this function just squares a vector.
+#' This function cubes a vector.
 #'
 #' @param x The vector to be cubed.
 #'

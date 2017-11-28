@@ -1,6 +1,6 @@
 #' Square a vector
 #'
-#' That's it -- this function just squares a vector.
+#' This function squares a vector.
 #'
 #' @param x The vector to be squared.
 #'

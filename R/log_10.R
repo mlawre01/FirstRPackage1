@@ -1,8 +1,8 @@
 #' Log (base 10) of a vector.
 #'
-#' This function just takes the log (base 10) of a vector.
+#' This function takes the log (base 10) of a vector.
 #'
-#' @param x The vector and power to log(10).
+#' @param x The vector to log(10).
 #'
 #' @return A vector that is the exponent to raise 10 to get the power, x \code{x}.
 #'
