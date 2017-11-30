@@ -15,7 +15,7 @@ pow(x, y = 2)
 A vector that is raised to the exponent y \code{x}.
 }
 \description{
-That's it -- this function just raises x to the exponent y.
+This function raises x to the exponent y.
 }
 \details{
 This function isn't complicated.

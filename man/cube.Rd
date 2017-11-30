@@ -7,13 +7,13 @@
 cube(x)
 }
 \arguments{
-\item{x}{The vector to be cubed.}
+\item{x}{A numberic vector to be cubed.}
 }
 \value{
-A vector that is the cube of \code{x}.
+A numeric vector that is the cube of \code{x}.
 }
 \description{
-That's it -- this function just squares a vector.
+This function cubes a vector.
 }
 \details{
 This function isn't complicated.

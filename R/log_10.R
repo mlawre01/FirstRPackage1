@@ -2,7 +2,7 @@
 #'
 #' This function takes the log (base 10) of a vector.
 #'
-#' @param x The vector to log(10).
+#' @param x The vector to log_10.
 #'
 #' @return A vector that is the exponent to raise 10 to get the power, x \code{x}.
 #'
@@ -10,7 +10,7 @@
 #' Logarithmic functions are the inverses of exponential functions.
 #'
 #'
-#' }
+#'
 #'
 #' @examples
 #' log_10(1:10)

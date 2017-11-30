@@ -1,7 +1,5 @@
 ---
 title: "Powers"
-author: "mlawre01"
-date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Powers}
@@ -11,54 +9,40 @@ vignette: >
 
 ## Description
 
-This R package was built for the STAT547 course at UBC as an exercise to learn about package development.
+This R package was built for the STAT547 course at UBC as an exercise to learn about package development. Normally, this file would explain to the user what the package contains and its intended use followed by some examples. 
+
+
+## Logarithmic and exponentials 
+
+Recall the relationship between logarithmic and exponential functions:
+
+> $$y = b^x$$ 
+$$log_b(y) = x$$
+
 
 ## Details
 
 This package contains the following functions: 
 
-  - cube()
-  - log_10()
+  - **cube** 
+
+> $$y = b^3$$
+
+  - **log_10**
+  
+> $$x = log_{10}(y)$$
   
 
-## Vignette Info
+## Examples
 
-Note the various macros within the `vignette` section of the metadata block above. These are required in order to instruct R how to build the vignette. Note that you should change the `title` field and the `\VignetteIndexEntry` to match the title of your vignette.
-
-## Styles
-
-The `html_vignette` template includes a basic CSS theme. To override this theme you can specify your own CSS in the document metadata as follows:
-
-    output: 
-      rmarkdown::html_vignette:
-        css: mystyles.css
-
-## Figures
-
-The figure sizes have been customised so that you can easily put two images side-by-side. 
-
-```{r, fig.show='hold'}
-plot(1:10)
-plot(10:1)
+```{r}
+library(powers)
 ```
 
-You can enable figure captions by `fig_caption: yes` in YAML:
-
-    output:
-      rmarkdown::html_vignette:
-        fig_caption: yes
-
-Then you can use the chunk option `fig.cap = "Your figure caption."` in **knitr**.
-
-## More Examples
-
-You can write math expressions, e.g. $Y = X\beta + \epsilon$, footnotes^[A footnote here.], and tables, e.g. using `knitr::kable()`.
-
-```{r, echo=FALSE, results='asis'}
-knitr::kable(head(mtcars, 10))
+```{r}
+cube(7)
+log_10(8)
 ```
 
-Also a quote using `>`:
 
-> "He who gives up [code] safety for [code] speed deserves neither."
-([via](https://twitter.com/hadleywickham/status/504368538874703872))
+

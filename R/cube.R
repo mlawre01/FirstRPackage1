@@ -2,9 +2,9 @@
 #'
 #' This function cubes a vector.
 #'
-#' @param x The vector to be cubed.
+#' @param x A numberic vector to be cubed.
 #'
-#' @return A vector that is the cube of \code{x}.
+#' @return A numeric vector that is the cube of \code{x}.
 #'
 #' @details
 #' This function isn't complicated.

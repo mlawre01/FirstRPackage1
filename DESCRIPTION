@@ -1,12 +1,12 @@
-Package: powers
+Package: Powers
 Type: Package
-Title: Simple computation of powers
+Title: Simple Computation of Powers
 Version: 0.1.0
 Author: Mack
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: MIT
+Maintainer: Mack <yourself@somewhere.net>
+Description: This package was generated for a STAT547 assignment to practice developing packages in R.
+    It contains two functions, log_10 and cube. These can be used to calculate the log base ten of and cubed values of a vector. 
+License: CC0
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1

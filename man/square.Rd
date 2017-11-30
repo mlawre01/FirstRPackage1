@@ -13,7 +13,7 @@ square(x)
 A vector that is the square of \code{x}.
 }
 \description{
-That's it -- this function just squares a vector.
+This function squares a vector.
 }
 \details{
 This function isn't complicated.

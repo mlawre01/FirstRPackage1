@@ -7,13 +7,16 @@
 log_10(x)
 }
 \arguments{
-\item{x}{The vector and power to log(10).}
+\item{x}{The vector to log_10.}
 }
 \value{
 A vector that is the exponent to raise 10 to get the power, x \code{x}.
 }
 \description{
-This function just takes the log (base 10) of a vector.
+This function takes the log (base 10) of a vector.
+}
+\details{
+Logarithmic functions are the inverses of exponential functions.
 }
 \examples{
 log_10(1:10)
