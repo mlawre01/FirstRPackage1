@@ -43,7 +43,7 @@ To faciliate package development, we're using the `devtools` package. It ensures
 
 #### Installation 
 
-You can install powers from github with:
+You can install powers from github:
 
 ```{r}
 #install.packages("devtools")
